@@ -3,8 +3,14 @@
 Uma biblioteca básica para gerenciar variáveis ​​de ambiente em PHP.
 
 ## Instrução
+Para utilizar ess biblioteca execute o comando abaixo:
 
-Para usar esta biblioteca, basta criar um arquivo`.env`na raiz do projeto, nomeado as variavei sensiveis
+```Shell
+ $ composer require sandro/php-dot-env
+ ```
+
+
+Depois basta criar um arquivo`.env`na raiz do projeto, nomeando as variaveis sensiveis EX:
 
 ```
 DB_HOST=localhost
